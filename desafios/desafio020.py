@@ -11,7 +11,7 @@ class Gamer:
         self.jogos.append(jogos)
 
     def ficha(self):
-        print(panel(f"[bold green]Nome:[/bold green] {self.nome}\n[bold blue]Nick:[/bold blue] {self.nick}\n[bold yellow]Jogos Favoritos:[/bold yellow] {', '.join(self.jogos)}", title="[bold red]Ficha do Gamer[/bold red]", subtitle="[bold yellow]End of Ficha[/bold yellow]", expand=False))
+        print(panel(f"[bold green]Nome:[/bold green] {self.nome}\n[bold blue]Nick:[/bold blue] {self.nick}\n[bold yellow]Jogos Favoritos:[/bold yellow]\n {'\n '.join(self.jogos)}", title=f"[bold red]Jogador <{self.nick}>[/bold red]", subtitle="[bold yellow]End of Ficha[/bold yellow]", expand=False))
 
 j1 = Gamer("Isaac", "MC.ansiedade")
 j1.add_favoritos("Minecraft")

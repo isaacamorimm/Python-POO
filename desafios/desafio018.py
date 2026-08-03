@@ -13,3 +13,5 @@ class Churrasco:
 
 c1 = Churrasco("Truco, Cerveja e Churrasco", 3)
 c1.analisar()
+
+# No vídeo de resolução, o professor utilizou funções para calcular, ao invés de colocar tudo na função analisar.
