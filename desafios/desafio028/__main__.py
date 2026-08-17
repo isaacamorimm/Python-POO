@@ -6,5 +6,6 @@ def main():
     t.temperatura = 23.5
     inspect(t, private=True, methods=True)
 
+
 if __name__ == "__main__":
     main()
